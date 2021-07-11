@@ -54,6 +54,17 @@ ul{
   text-align: center;
 }
 
+#login-form input{
+  color: white;
+  background: transparent;
+  border-color: white;
+  border-right: 0px;
+  border-top: 0px;
+  border-left: 0px;
+  border-bottom-width: 1;
+  text-align: center;
+}
+
 input::placeholder{
   color: white;
   text-align: center;
