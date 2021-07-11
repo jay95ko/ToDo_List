@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="js/greeting.js"></script>
+    <script defer src="js/clock.js"></script>
+    <script defer src="js/background.js"></script>
+    <script defer src="js/todo.js"></script>
+    <script defer src="js/weather.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="clock_box">
+    <form class="hidden" id="login-form">
+        <input required maxlength="15" type="text" placeholder="What is your name?"/>
+        <input type="submit" value="Log In" />
+    </form>
+    <h2 id="clock">00:00:00</h2>
+    </div>
+
+    <div class="todo_box">
+    <h1 id="greeting" class="hidden"></h1>
+    <form id="todo-form">
+        <input required type="text" placeholder="Write a To Do here"/>
+    </form>
+    <ul id="todo-list"></ul>
+    </div>
+    <div id="weather">
+        <span></span>
+        <br>
+        <span></span>
+    </div>
+</body>
+</html>
